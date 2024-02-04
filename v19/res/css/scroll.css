@@ -1,0 +1,26 @@
+/* width */
+::-webkit-scrollbar {
+  -webkit-transition-duration: 0.1s; /* Safari */
+  background-color:white;
+  width:10px;
+  height:10px;
+  outline:none;
+  border:none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:rgb(193, 193, 193);
+  border-radius:20px;
+  -webkit-transition-duration: 0.5s; /* Safari */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  -webkit-transition-duration: 0.5s; /* Safari */
+  background: rgb(136, 136, 136); 
+}
+
+::-webkit-scrollbar-button {
+    display:none;
+}

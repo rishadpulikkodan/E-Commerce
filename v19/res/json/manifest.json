@@ -1,0 +1,42 @@
+{
+	"name": "E Commerce",
+	"short_name": "E Commerce",
+	"description": "E Commerce",
+	"start_url": "https://rishad.dev/ec/back",
+	"display": "standalone",
+	"orientation": "portrait",
+	"background_color": "blue",
+	"theme_color": "blue",
+	"icons": [
+		{
+			"src": "https://rishad.dev/ec/res/img/favicon.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "https://rishad.dev/ec/res/img/favicon.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+		{
+            "src": "https://rishad.dev/ec/res/img/favicon.png",
+            "type": "image/png",
+			"sizes": "192x192",
+			"purpose": "maskable"
+        },
+        {
+            "src": "https://rishad.dev/ec/res/img/favicon.png",
+            "type": "image/png",
+            "sizes": "512x512",
+			"purpose": "maskable"
+        }
+	],
+	"author": {
+		"name": "Rishad",
+		"website": "https://rishad.dev",
+		"github": "https://github.com/gokulkrishh",
+		"source-repo": "https://github.com/gokulkrishh/demo-progressive-web-app"
+	},
+	"gcm_sender_id": "847244712742",
+	"gcm_user_visible_only": true
+}
